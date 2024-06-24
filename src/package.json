@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-project-messagebaord",
+  "version": "0.0.1",
+  "description": "InfoSec project for freeCodeCamp",
+  "main": "./src/views/index.html",
+  "scripts": {
+    "start": "parcel ./src/views/index.html",
+    "build": "parcel build ./src/views/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "1.20.2",
+    "chai": "5.1.1",
+    "chai-http": "5.0.0",
+    "cors": "2.8.5",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "helmet": "7.1.0",
+    "mocha": "^3.2.0",
+    "mongoose": "8.4.3",
+    "cryptojs": "2.5.3",
+    "mongodb": "6.7.0"
+  },
+  "keywords": ["node", "express"],
+  "license": "MIT"
+}
